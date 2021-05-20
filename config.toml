@@ -1,0 +1,47 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Amina Hazyoun"
+theme = "ananke"
+[params]
+  site_logo = "/images/sblheart.png"
+
+[menu]
+  [[menu.main]]
+      identifier = "blog"
+      name = "Gitlab"
+      title = "blog section"
+      url = "https://gitlab.glu.nl/536542"
+      weight = -110
+  [[menu.main]]
+      identifier = "contact"
+      name = "Contact"
+      title = "blog section"
+      url = "/_contact/"
+      weight = -110
+  [[menu.main]]
+      identifier = "projects"
+      name = "Projects"
+      title = "this is how you link to a local page"
+      url = "/_projects/"
+      weight = -110
+
+  [[menu.main]]
+      identifier = "CV"
+      name = "CV"
+      title = "this is how you link to a local page"
+      url = "/_CV/"
+      weight = -110
+
+  [[menu.main]]
+      identifier = "HTML"
+      name = "HTML"
+      title = "this is how you link to a local page"
+      url = "/_html/"
+      weight = -110
+
+  [[menu.main]]
+      identifier = "Javascript"
+      name = "Javascript"
+      title = "this is how you link to a local page"
+      url = "/_javascript/"
+      weight = -110

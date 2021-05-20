@@ -1,0 +1,10 @@
+Ailel Website
+TODO:
+- Understand how to build a site - DONE
+- Understand how to work together remotly with other pairing over stream - DONE
+- Add this project to GitHub for collaboration - Melon
+- Fill out and edit config on page information - Ailel
+- Check Menu links to see if they are what you want - Ailel
+- Domain name buying - don’t know
+- Hook up with Netlify - Ailel
+- Hosting solutions - Melon

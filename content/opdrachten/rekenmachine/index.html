@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/rekenmachine.css">
+        <script src="rekenmachine.js"></script>
+        <style>
+            body {
+                background-image: url("planeet1.jpg.jpg");
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+            }
+            </style>
+    </head>
+    <body>
+
+        <div id="naam">
+            Rekenmachine
+        </div>
+
+        <div id="container">
+            <input type="text" size="15" id = "uitkomst" name="uitkomst">
+            <input type=button id="clear" value ="C" class="clear" onclick ="clearField()">
+            <br>
+            <input type=button value="1" id="knopc" onclick="Reken('1')">
+            <input type=button value="2" id="knopc" onclick="Reken('2')">
+            <input type=button value="3" id="knopc" onclick="Reken('3')">
+            <input type=button value="+" id="knopr" onclick="Reken('+')">
+            <br>
+            <input type=button value="4" id="knopc" onclick="Reken('4')">
+            <input type=button value="5" id="knopc" onclick="Reken('5')">
+            <input type=button value="6" id="knopc" onclick="Reken('6')">
+            <input type=button value="-" id="knopr" onclick="Reken('-')">
+            <br>
+            <input type=button value="7" id="knopc" onclick="Reken('7')">
+            <input type=button value="8" id="knopc" onclick="Reken('8')">
+            <input type=button value="9" id="knopc" onclick="Reken('9')">
+            <input type=button value="x" id="knopr" onclick="Reken('*')">
+            <br>
+
+            <input type=button value="." id="punt" onclick="Reken('.')">
+            <input type=button value="0" id="knopc" onclick="Reken('0')">
+            <input type=button value="=" id="is" onclick="NerdMachine()">
+            <input type=button value="/" id="knopr" onclick="Reken('/')">
+        
+        </div>
+
+        <audio id="audio">
+            <source src="buttonsoundjs.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+    </body>
+</html>

@@ -1,0 +1,45 @@
+#image {
+    padding-left: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+ 
+ul {
+    list-style-type: none;
+}
+
+.h2 {
+    color: rgb(78, 77, 77);
+    padding-left: 10px;
+}
+
+.boeken {
+    float: left;
+}
+.muziek {
+    float: left;
+}
+
+.mooi {
+    float: left;
+}
+
+.computer {
+    float: left;
+}
+
+.tuin {
+    float: left;
+}
+a{
+color: black;
+text-decoration: none;
+}
+h2{
+margin-left: 27.5px;
+}
+img{
+margin-left: 22.5px;
+}
